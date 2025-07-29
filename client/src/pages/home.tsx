@@ -485,10 +485,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-playfair text-4xl md:text-5xl font-bold text-forest-green mb-4">
-              ગ્રાહકોના અભિપ્રાય
+              Customer Testimonials
+              <span className="block mt-2 text-3xl">ગ્રાહકોના અભિપ્રાય</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              ગુજરાતભરમાં પેઢીઓથી વિશ્વસનીય
+              Trusted by generations across Gujarat
+              <span className="block mt-1">ગુજરાતભરમાં પેઢીઓથી વિશ્વસનીય</span>
             </p>
           </div>
 
@@ -497,11 +499,11 @@ export default function Home() {
               <div className="flex items-center mb-6">
                 <img 
                   src={images3}
-                  alt="ખુશ ગ્રાહક"
+                  alt="Happy Customer - ખુશ ગ્રાહક"
                   className="w-16 h-16 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold text-forest-green">પ્રિયા પટેલ</h4>
+                  <h4 className="font-semibold text-forest-green">Priya Patel | પ્રિયા પટેલ</h4>
                   <div className="flex text-yellow-500">
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star"></i>
@@ -511,6 +513,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <p className="text-gray-600 italic mb-2">
+                "The ghee from Shree Krishna Dairy Farm is truly pure and traditional. We now exclusively use their ghee at home."
+              </p>
               <p className="text-gray-600 italic">
                 "શ્રી કૃષ્ણ ડેરી ફાર્મનું ઘી સાચે જ શુદ્ધ અને પારંપરિક સ્વાદવાળું છે. અમારા ઘરમાં હવે માત્ર આ જ ઘી વપરાય છે."
               </p>
@@ -520,11 +525,11 @@ export default function Home() {
               <div className="flex items-center mb-6">
                 <img 
                   src={images3}
-                  alt="ખુશ ગ્રાહક"
+                  alt="Happy Customer - ખુશ ગ્રાહક"
                   className="w-16 h-16 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold text-forest-green">મીતા દેસાઈ</h4>
+                  <h4 className="font-semibold text-forest-green">Meeta Desai | મીતા દેસાઈ</h4>
                   <div className="flex text-yellow-500">
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star"></i>
@@ -534,6 +539,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <p className="text-gray-600 italic mb-2">
+                "The quality of dahi and chaas is excellent. The fresh taste and service are truly commendable."
+              </p>
               <p className="text-gray-600 italic">
                 "દહીં અને છાશની ક્વોલિટી એકદમ સરસ છે. તાજગીભર્યો સ્વાદ અને સેવા ખરેખર પ્શંસનીય છે."
               </p>
@@ -543,11 +551,11 @@ export default function Home() {
               <div className="flex items-center mb-6">
                 <img 
                   src={images3}
-                  alt="ખુશ ગ્રાહક"
+                  alt="Happy Customer - ખુશ ગ્રાહક"
                   className="w-16 h-16 rounded-full object-cover mr-4"
                 />
                 <div>
-                  <h4 className="font-semibold text-forest-green">રાજેશ શાહ</h4>
+                  <h4 className="font-semibold text-forest-green">Rajesh Shah | રાજેશ શાહ</h4>
                   <div className="flex text-yellow-500">
                     <i className="fas fa-star"></i>
                     <i className="fas fa-star"></i>
@@ -557,6 +565,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <p className="text-gray-600 italic mb-2">
+                "The quality of paneer and shrikhand is excellent. Tastes just like homemade."
+              </p>
               <p className="text-gray-600 italic">
                 "પનીર અને શ્રીખંડની ક્વોલિટી એકદમ ઉત્તમ છે. ઘરે બનાવ્યા જેવો સ્વાદ મળે છે."
               </p>
